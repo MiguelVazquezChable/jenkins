@@ -1,0 +1,316 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:38069 (IPv4)
+Extension host agent listening on 38069
+
+[14:09:48] Extension host agent started.
+[14:09:48] [127.0.0.1][9a9dff41][ManagementConnection] New connection established.
+[14:09:48] [127.0.0.1][4bef25a3][ExtensionHostConnection] New connection established.
+[14:09:48] [127.0.0.1][4bef25a3][ExtensionHostConnection] <3411> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[14:10:03] [127.0.0.1][9a9dff41][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:10:03] [127.0.0.1][4bef25a3][ExtensionHostConnection] <3411> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:10:03] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[14:10:07] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[14:10:07] Cancelling previous shutdown timeout
+[14:10:07] [127.0.0.1][bd118d9c][ManagementConnection] New connection established.
+[14:10:07] [127.0.0.1][14844de3][ExtensionHostConnection] New connection established.
+[14:10:07] [127.0.0.1][14844de3][ExtensionHostConnection] <3528> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:10:10] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+New EH opened, aborting shutdown
+[14:15:07] New EH opened, aborting shutdown
+[14:46:38] [127.0.0.1][bd118d9c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:46:38] [127.0.0.1][14844de3][ExtensionHostConnection] <3528> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:46:38] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[14:46:47] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[14:46:47] Cancelling previous shutdown timeout
+[14:46:47] [127.0.0.1][d5233eff][ManagementConnection] New connection established.
+[14:46:47] [127.0.0.1][4df083f8][ExtensionHostConnection] New connection established.
+[14:46:47] [127.0.0.1][4df083f8][ExtensionHostConnection] <24433> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:46:50] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+[14:46:53] [127.0.0.1][d5233eff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:46:53] [127.0.0.1][4df083f8][ExtensionHostConnection] <24433> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[14:46:53] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[14:46:53] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[14:46:58] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[14:46:58] Cancelling previous shutdown timeout
+[14:46:59] [127.0.0.1][d92342ac][ManagementConnection] New connection established.
+[14:46:59] [127.0.0.1][f543d5ff][ExtensionHostConnection] New connection established.
+[14:46:59] [127.0.0.1][f543d5ff][ExtensionHostConnection] <24603> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[14:47:01] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+New EH opened, aborting shutdown
+[14:51:58] New EH opened, aborting shutdown
+[15:53:46] [127.0.0.1][d92342ac][ManagementConnection] The client has reconnected.
+[15:53:46] [127.0.0.1][f543d5ff][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateIcon (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32124),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:53:47] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateIcon (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32124),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:53:47] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:53:47] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:53:48] [Error [CodeExpectedError]: Could not find pty on pty host,    at c._throwIfNoPty (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:36316),    at c.updateTitle (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:23:32064),    at Object.call (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:16:8386),    at u.onPromise (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5851),    at u.onRawMessage (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:5234),    at /home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:15:4520,    at p.invoke (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:145),    at D.deliver (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:2275),    at T.fire (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:11:1853),    at process.Q (/home/ec2-user/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/platform/terminal/node/ptyHostMain.js:9:20703),    at process.emit (node:events:526:28),    at emit (node:internal/child_process:938:14),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
